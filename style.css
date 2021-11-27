@@ -382,6 +382,35 @@ h1 {
   display: inline-block;
 }
 
+.overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--close {
+  position: fixed;
+  background-color: transparent;
+  right: 5%;
+  top: 5%;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border: 1px solid transparent;
+  background-image: url("../img/close-button.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 100;
+}
+
 @media (max-width: 1379px) {
   .wrapper {
     padding: 25px;
@@ -445,9 +474,9 @@ h1 {
   .technology {
     width: 90%;
   }
-  .code-examples {
+  /* .code-examples {
     display: none;
-  }
+  } */
   .work-and-education {
     padding-bottom: 250px;
   }
