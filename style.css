@@ -404,7 +404,7 @@ h1 {
   height: 30px;
   display: block;
   border: 1px solid transparent;
-  background-image: url("../img/close-button.svg");
+  background-image: url("img/close-button.svg");
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
